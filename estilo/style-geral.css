@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagens/fundo_bolsa_valore.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em
+}
+
+section#valor {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(29, 26, 26, 0.651);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+section#dados {
+    display: flex;
+}
+
+input[type="number"], input[type="submit"] {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+input[type="number"] {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+
+
+input[type="submit"] {
+    
+}
+
+section#frases {
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: rgba(29, 26, 26, 0.651);;
+}
+
+p {
+    font-size: 2em;
+}
+
+div#mensagem {
+    font-size: 2em;
+    box-sizing: border-box;
+    padding-left: 10px;
+}

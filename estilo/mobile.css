@@ -1,0 +1,24 @@
+/* Arquivo mobile.css */
+
+@media screen and (max-width: 600px) {
+    section#valor {
+        background-color: rgba(29, 26, 26, 0.651);
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #txtvalorinvestido {
+        font-size: 1.5em
+    }
+
+    label {
+        font-size: 1.7em
+    }
+
+    #frase {
+        font-size: 14px;
+    }
+}
